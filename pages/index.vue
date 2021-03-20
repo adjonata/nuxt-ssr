@@ -23,7 +23,7 @@ export default {
       .then((response) => response.json())
       .catch((error) => console.error(error))
   },
-  fetchOnServer: true,
+  fetchOnServer: false,
   methods: {
     removeUser(index) {
       this.users.splice(index, 1)
